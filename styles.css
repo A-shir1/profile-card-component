@@ -1,0 +1,107 @@
+body{
+      height: 100vh;
+      margin: 0;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size: 18px;
+      background-image: url(images/bg-pattern-top.svg),
+                        url(images/bg-pattern-bottom.svg);
+      background-position: right 190% top 175%,
+                           left 140% bottom 290%; 
+      background-repeat: no-repeat; 
+      background-size: 72%,
+                        65%;
+      background-color: hsl(185, 75%, 39%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+#card{
+      background-color: white;
+      width: 320px;
+      height: 350px;
+      border-radius: 1rem;
+}
+
+#card .cover{
+      background-image: url("images/bg-pattern-card.svg");
+      height: 8rem;
+      border-radius: 1rem 1rem 0 0;
+}
+
+#card .info{
+      text-align: center;
+      height: 40%;
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+      font-weight: 300;
+}
+
+#card .info .image{
+      position: relative;
+      bottom: 2.91rem;
+      right: 2.75rem;
+}
+
+#card .info .image img{
+      position: absolute;
+      border-radius: 50%;
+      border: 0.32rem solid white;
+}
+
+#card .info .text{
+      position: relative;
+      top: 4.75rem;
+      color: gray;
+}
+
+.info #name{
+      margin-right: 0.6rem;
+      font-weight: 700;
+      color: black;
+}
+
+.info #location{
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+}
+
+
+#card .stats{
+      height: 23.3%;
+      border-radius: 0 0 1rem 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.stats .statholder .poststats{
+      display: flex;
+      flex-direction: column;  
+}
+
+.stats .statholder .poststats .num, .stats .statholder .poststats .details{
+      text-align: center;
+
+}
+
+.stats .statholder .poststats .num{
+      font-weight: 700;
+}
+
+.stats .statholder .poststats .details{
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+      margin-top: 3px;
+      color: gray;
+}
+
+.attribution {
+      font-size: 11px; 
+      text-align: center;
+      margin-top: 30px;
+}
+
+.attribution a { 
+      color: #d0f0c0; 
+}
